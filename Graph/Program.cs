@@ -34,7 +34,7 @@ namespace Graph
             //Console.WriteLine(graph.Adjacent("7", "5"));
             //Console.WriteLine(graph.Adjacent("5", "2"));
             //Console.WriteLine(graph.Degree("14"));
-            Console.ReadKey();
+            //Console.ReadKey();
 
             Serializer.Serialize(graph, "D:\\Projects\\Graph\\Graph\\graphPlot.dgml");
         }
